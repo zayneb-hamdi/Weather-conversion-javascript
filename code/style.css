@@ -1,0 +1,85 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background: url('back.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title
+{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.label
+{
+    margin-top: 70px;
+   
+}
+.label input
+{
+    height: 100%;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 45px 10px 60px;
+    border-bottom: 1px #fff solid; 
+    
+    
+    
+}
+.label input::placeholder
+{
+    color: white;
+    
+}
+.label button
+{
+    padding: 5px;
+    margin: 10px;
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(93, 107, 119);
+} 
+.box
+{
+    display: flex;
+   
+    margin-top: 70px;
+    
+    column-gap: 70px;
+}
+.carte
+{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 200px black ;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+}
+.carte h2
+{
+    margin-top: 100px;
+}
